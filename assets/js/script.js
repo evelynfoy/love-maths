@@ -16,9 +16,16 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 })
 
-function rumGame() {
-
+/**
+ * The main gamne "loop", called when the script is first loaded
+ * and after the user's answer has been processed
+ */
+function runGame() {
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
+
+runGame();
 
 function checkAnswer() {
     
